@@ -1,5 +1,16 @@
 {
   "name": "oxc-issues",
+  "type": "module",
   "license": "MIT",
+  "scripts": {
+    "format": "oxfmt",
+    "lint": "oxlint --type-aware"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20251117.1",
+    "oxfmt": "^0.14.0",
+    "oxlint": "^1.29.0",
+    "oxlint-tsgolint": "^0.7.1"
+  },
   "private": true
 }

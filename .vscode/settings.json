@@ -1,0 +1,11 @@
+{
+  "typescript.experimental.useTsgo": true,
+
+  "oxc.enable": true,
+  "oxc.fmt.experimental": true,
+  "oxc.typeAware": true,
+
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  }
+}
