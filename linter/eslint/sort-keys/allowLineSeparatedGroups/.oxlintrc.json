@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "eslint"
+  ],
+  "rules": {
+    "eslint/sort-keys": [
+      "error",
+      {
+        "allowLineSeparatedGroups": true
+      }
+    ]
+  }
+}
