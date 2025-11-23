@@ -5,6 +5,7 @@
   "rules": {
     "eslint/sort-keys": [
       "error",
+      "asc", // https://github.com/oxc-project/oxc/issues/15797#issuecomment-3556911693
       {
         "allowLineSeparatedGroups": true
       }
